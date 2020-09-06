@@ -1,0 +1,28 @@
+{
+  "name": "sample-node",
+  "version": "1.0.0",
+  "description": "Sample server app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run server",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsikrishna-origa/sample-node.git"
+  },
+  "author": "vamsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsikrishna-origa/sample-node/issues"
+  },
+  "homepage": "https://github.com/vamsikrishna-origa/sample-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.3",
+    "nodemon": "^2.0.4"
+  }
+}
